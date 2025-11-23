@@ -59,3 +59,5 @@ Order history and reviews are displayed in the app.
 
 Contributing
 Contributions are welcome! Please submit a pull request or open an issue for suggestions.
+
+note: node server.js
