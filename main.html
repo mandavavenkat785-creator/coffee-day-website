@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main</title>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    async function loadPage() {
+      const appDiv = document.getElementById('app');
+      const loggedIn = localStorage.getItem('loggedIn');
+
+      if (loggedIn === 'true') {
+        // Load index.html content
+        const response = await fetch('index.html');
+        const html = await response.text();
+        appDiv.innerHTML = html;
+      } else {
+        // Load login.html content
+        const response = await fetch('login.html');
+        const html = await response.text();
+        appDiv.innerHTML = html;
+      }
+    }
+
+    loadPage();
+  </script>
+</body>
+</html>
