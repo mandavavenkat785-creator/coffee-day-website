@@ -6,7 +6,7 @@ Welcome to the Coffee Day web application! This project is a full-stack coffee s
 
 -**User Registration & Login:** Secure authentication with password hashing using bcrypt.
 
--M**enu Browsing & Cart:** Add coffee items to your cart, adjust quantities, and confirm orders.
+-**Menu Browsing & Cart:** Add coffee items to your cart, adjust quantities, and confirm orders.
 
 -**Order History:** View previous orders (persists per user in localStorage).
 
@@ -20,7 +20,7 @@ Welcome to the Coffee Day web application! This project is a full-stack coffee s
 
 -**Backend:** Node.js, Express, MongoDB
 
--Dependencies: express, mongoose, bcryptjs, body-parser, cors
+-**Dependencies:** express, mongoose, bcryptjs, body-parser, cors
 
 **Getting Started**
 
